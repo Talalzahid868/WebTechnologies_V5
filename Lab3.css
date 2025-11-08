@@ -1,0 +1,27 @@
+h1{
+    color: rgb(13, 100, 71);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(176, 201, 193);
+}
+#myid{
+    background-color: coral;
+
+}
+.myclass{
+    background-color: cornflowerblue;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(185, 147, 221);
+}
+#para{
+    background-color: aliceblue;
+}
+.mypara{
+    background-color: darkcyan;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
