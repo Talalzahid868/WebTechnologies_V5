@@ -30,3 +30,42 @@ Css types:
 2)internal-->write in head tag 
 <br>
 3)external-->css file,standalone
+
+<hr>
+Inline Css-->between tags , boostrap or tailwind
+Internal Css--> written in head tag
+External Css--> Make File
+<br>
+
+
+Ways of using CSS
+# --> id
+element name used only for element
+. --> class
+<br>
+
+Every content has border against it in HTML. it is invisible we have to visble it. content-->padding-->border-->Margin
+<br>
+Every content has border against it in HTML. it is invisible we have to visble it. content-->padding-->border-->Margin
+
+
+Colors Type:
+Some are predefine colors
+1)HEX-->six decimal code #ffoa
+2)RGB
+3)HSL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
