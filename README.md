@@ -55,8 +55,11 @@ Some are predefine colors
 2)RGB
 3)HSL
 
+<hr>
+In lab 7 we learn about Flex layouts of css. we do activity is make an ecccomerce platform. 
 
-
+<hr>
+In lab8 we learn about Grid layouts of css, diffrence b/w flax and grid.units like fr,auto,minmaxand repeat function for grids. 
 
 
 
