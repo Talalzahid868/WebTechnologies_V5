@@ -61,6 +61,24 @@ In lab 7 we learn about Flex layouts of css. we do activity is make an ecccomerc
 <hr>
 In lab8 we learn about Grid layouts of css, diffrence b/w flax and grid.units like fr,auto,minmaxand repeat function for grids. 
 
+<hr>
+in lab 12
+bootstarap is the framework of css.
+used predefined libraries in it instead of make all things from scratch
+
+used of grid or flex in bootstrap
+
+
+flex,button,background, button,carousel
+
+480px-720px modile
+720px-980px 
+980px-1440px desktop
+ 
+
+m-5 mt-5 mb-5 
+p-5 pt-5pb-5
+
 
 
 
