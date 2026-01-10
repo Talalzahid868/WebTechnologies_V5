@@ -1,0 +1,21 @@
+body{
+    background-color:aquamarine;
+}
+
+@media(min-width:576px){
+    body{
+    background-color:green;
+}
+
+}
+
+
+.contain{
+    display:flex;
+}
+
+.c{
+    height:50px;
+    width:50px
+}
+

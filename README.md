@@ -79,6 +79,27 @@ flex,button,background, button,carousel
 m-5 mt-5 mb-5 
 p-5 pt-5pb-5
 
+<hr>
+In lab 13 
+node -v
+code runner extension will install
+script.js
+
+
+media queries
+Js--> scripting language <script> tag is used,run in browser 
+node.js installation
+
+ways to defins varialble:
+ a =10 --> obselete methode
+var a =10 --> obselete but still used ,no scope
+let a =10 --> has scope 
+const a =10 --> used for constant value
+
+
+number,string,boolean,null,undefine
+
+
 
 
 
