@@ -99,7 +99,13 @@ const a =10 --> used for constant value
 
 number,string,boolean,null,undefine
 
+<hr>
+In lab 14 we learn about primitives types of JS,strings function,numbers funtions,Boolean Logic,loops(fro,while.dowhile),ifelse ,JS Arrays,JS Objects
 
+null==>Nothing
+undefined==>not defined
+
+Math objects
 
 
 
