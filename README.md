@@ -107,6 +107,9 @@ undefined==>not defined
 
 Math objects
 
+<hr>
+In lab 15 we learn about JS Functions.
+
 
 
 
