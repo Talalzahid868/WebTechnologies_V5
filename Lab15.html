@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Lab15.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Dis">
+            <div class="headerbdy">
+                <div class="date">9:41</div>
+                <div class="wifi">📶</div>
+                <div class="batter">🔋</div>
+            
+            </div>
+            <div class="display">
+                
+                <!-- <input type="number" name="" id="num"> -->
+                <input type="text" name="" id="num">
+            </div>
+
+        </div>
+        <div class="buttonss">
+            <div class="btn1">
+                <button onclick="clearbuttons()" class="row1" >AC</button>
+                <button onclick="getbuttons('+/-')" class="row1" >+/-</button>
+                <button onclick="getbuttons('%')" class="row1" >%</button>
+                <button onclick="getbuttons('/')" class="op" >&divide;</button>
+            </div>
+            <div class="btn2">
+                <button onclick="getbuttons('7')" class="row2" >7</button>
+                <button onclick="getbuttons('8')" class="row2" >8</button>
+                <button onclick="getbuttons('9')" class="row2" >9</button>
+                <button onclick="getbuttons('*')" class="op" >	&times;</button>
+            </div>
+            <div class="btn3">
+                <button onclick="getbuttons('4')" class="row3" >4</button>
+                <button onclick="getbuttons('5')" class="row3" >5</button>
+                <button onclick="getbuttons('6')" class="row3" >6</button>
+                <button onclick="getbuttons('-')" class="op" >-</button>
+            </div>
+            <div class="btn4">
+                <button onclick="getbuttons('1')" class="row4" >1</button>
+                <button onclick="getbuttons('2')" class="row4" >2</button>
+                <button onclick="getbuttons('3')" class="row4" >3</button>
+                <button onclick="getbuttons('+')" class="op" >+</button>
+            </div>
+            <div class="btn5">
+                <button onclick="getbuttons('')" class="row5" >🧮</button>
+                <button onclick="getbuttons('0')" class="row5" >0</button>
+                <button onclick="getbuttons('.')" class="row5" >.</button>
+                <button onclick="getcalculation()" class="op" >=</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="Lab15.js"></script>
+</body>
+</html>
