@@ -110,6 +110,9 @@ Math objects
 <hr>
 In lab 15 we learn about JS Functions.
 
+<hr>
+At the end of the course we make the project "Digital Expence Tracker" by using HTML,CSS and JS. In this project user can add Expences, remove any item and show total Expence. For user friedly Layout we used HTML and CSS (media query for mobile friendly) and Js for functionalities.
+
 
 
 

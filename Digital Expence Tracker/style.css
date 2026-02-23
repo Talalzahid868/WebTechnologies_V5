@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+.student_info{
+    border: 2px solid;
+    text-align: center;
+    background-color: rgb(26, 9, 62);
+    padding: 10px;
+    color: whitesmoke;
+}
+.container{
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    border: none;
+    background-color: rgb(26, 9, 62);
+    color: white;
+    border-radius: 15px;
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #24ab5c;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: #24ab5c;
+    cursor: pointer;
+    border: none;
+    font-size:large;
+}
+button:hover{
+    background-color: #219150;
+}
+
+.dlt_btn{
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    padding: 3px 6px;
+    cursor: pointer;
+    font-weight:normal;
+    width: 34%;
+    height: 20%;
+}
+.dlt_btn:hover{
+    color: black;
+    background-color: #e74c3c;
+}
+
+.expense_list ul{
+    list-style: none;
+    padding: 0;
+}
+
+.expense_list li{
+    font-weight: 800;
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    background-color: #ecf0f1;
+    margin-bottom: 5px;
+
+}
+
+.amount{
+    font:bold;
+    color: #e74c3c;
+}
+.item_name{
+    font: bold;
+    color: black;
+    font-weight: bold;
+}
+.Total{
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color:  #c9e7e9;
+}
+
+@media (max-width:600px){
+    .container{
+        padding: 15px;
+        width: 80%;
+        margin-top: 30px;
+    }
+    input{
+        font-size: 14px;
+
+    }
+    .expense_list li{
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 5px
+    }
+    .dlt_btn{
+        width: 25%;
+        align-self: end;
+    }
+    h1,h2{
+        font-weight:lighter;
+    }
+    
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expence Traker</title>
+</head>
+<body>
+    <div class="student_info">
+        <h2>Talal Zahid (F2022266500)</h2>
+        <h2>Muhammad Asad (F2022266233)</h2>
+    </div>
+    <div class="container">
+        <h1>Expence Tracker Web Application</h1>
+        <div class="form">
+            <form action="">
+                <label for="expencename">Expence Name</label>
+                <input type="text" id="expencename" placeholder="Enter expence name">
+                <label for="expenceprice">Expence Name</label>
+                <input type="number" id="expenceprice" placeholder="Enter expence price">
+                <button type="button" onclick="addExpense()">Add Expense</button>
+            </form>
+        </div>
+        <div class="expense_list">
+            <h2>Expense List</h2>
+            <ul id="Expenseslist">
+    
+            </ul>
+        </div>
+        <div class="Total">
+            <h2>Total Expence :  <span id="Totalammount">0</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
